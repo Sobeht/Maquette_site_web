@@ -1,0 +1,64 @@
+.important {
+    color: #A5B4FC;
+}
+
+h1 { 
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: Montserrat;
+}
+
+h2{ 
+    color:#F9F8FF;
+
+}
+
+
+li { 
+    font-size: 1em;
+    font-family: Manrope;
+    color:#F9F8FF;
+
+}
+
+a { 
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Manrope;
+    color: #242424;
+}
+
+body {
+    background-color: #1F2039;
+}
+
+.bordure_texte {
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+}
+
+
+.haut, .bas { 
+    background-color: white;
+    
+}
+
+.lien_bouton {
+    background: linear-gradient(to right,#8E86B5,#ACAEED);
+    font-family: Manrope;
+    color: white;
+    border-radius : 50px;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: Manrope;
+    color:#F9F8FF;
+}
+
+.taille_logo {
+    width: auto;
+    height: 2.4em;
+    max-width: auto;
+    max-height: 2.4em;
+}
