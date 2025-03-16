@@ -5,7 +5,8 @@
     
     <meta charset="utf-8">
     <title>À propos - Robbie Lens Photographie</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="Styles/general.css" rel="stylesheet">
+    <link href="Styles/a_propos.css" rel="stylesheet">
 
     <!-- MONTSERRAT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,20 +20,32 @@
 
 <body>
     
-<header>
-    <nav class="entete">
-        <a href="index.html"><img src="IMAGES/logo.png" alt="Page d'accueil" class="taille_logo"> Page d'accueil</a>
-        <a href="a_propos.html">A propos</a>
-    </nav>
-</header>
+    <header>   
+        <nav>
+        <div class = "nav_entete">
+             <a href="index.html"><img src="IMAGES/logo.png" alt="Page d'accueil" class="taille_logo"></a>
+                
+             <div class="nav_boutons">
+                <a href="index.html">Page d'accueil</a>
+                <a href="a_propos.html">A propos</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </div>
+        </nav>
+           
+    </header>
 
-<section class=a_propos>
 <main>
-    <h1>À propos de Robbie Lens</h1>
-    <div class="carre_contenu">
-    <p>Photographe depuis plus de 5 ans, je réalise des reportages aux photos dynamiques et pertinentes pour vos projets de communication. Créativité, qualité, et sérénité pour vous ! Je gère tout, depuis la direction artistique, la réalisation du reportage, jusqu’à la livraison de vos photos retouchées, prêtes à l’emploi.</p>
+<section  class="section1_apropos">
+   <div class="S1_apropos">
+    <div class = S1apropos_titre><h1>À propos</h1></div>
 
-    <h2>Services</h2>
+    <div class="S1apropos_texte">
+        <p>Photographe depuis plus de 5 ans, je réalise des reportages aux photos dynamiques et pertinentes pour vos projets de communication. Créativité, qualité, et sérénité pour vous ! Je gère tout, depuis la direction artistique, la réalisation du reportage, jusqu’à la livraison de vos photos retouchées, prêtes à l’emploi.</p>
+    </div>
+
+    <div class = "S1apropos_liste">
+        <h2 class="S1apropos_titreservices">Services</h2>
     <ul>
         <li>Portrait seul ou à plusieurs,</li>
         <li>Shooting mode,</li>
@@ -40,12 +53,35 @@
         <li>Développement. </li>
     </ul>
     </div>
-    <div>
-       <a class=lien_bouton href="">VOIR MON PORTFOLIO</a>
+    <div class = "S1apropos_boutonportfolio">
+        <a class=lien_bouton href="portfolio.html">VOIR MON PORTFOLIO</a>
     </div>
-</main>
+    </div>
 </section>
 
+<section class="section2_tarifs">
+    <table>
+        <caption class="S2tarifs_titre">TARIFS</caption>
+        <tr>
+            <th class="S2tarifs_designation">Désignation</th>
+            <th>Quantité</th>
+            <th>Prix</th>
+        </tr>
+        <tr>
+            <td>Retouches photo studio professionnel</td>
+            <td>x 800 photos</td>
+            <td>3 200€/800 photos</td>
+        </tr>
+        <tr>
+            <td>Assistant photo lumière profesisonnel</td>
+            <td>x 2 sets studio</td>
+            <td>1 500€/journée</td>
+        </tr>
+    </table>
+
+</section>
+
+</main>
 <footer>
     <nav class="bas_de_page">
 

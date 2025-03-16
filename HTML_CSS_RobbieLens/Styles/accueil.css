@@ -1,0 +1,57 @@
+/* premiere partie accueil */
+
+.section1_accueil {
+    background-color: #1F2039;
+
+}
+.S1_accueil {
+    display: flex;
+    padding : 20px;
+    margin : 20px 160px 20px 160px;
+    justify-content: center;
+    align-items : center;
+    border-bottom : 1px #696484 solid;
+    text-align: justify;
+ 
+}
+
+.S1accueil_gauche{
+    margin-right: 150px;
+   
+}
+
+.S1accueil_titre , .S1accueil_texte {
+    padding-bottom : 25px;
+}
+
+em {
+    color: #A5B4FC;
+}
+
+.S1accueil_boutoncontact {
+    padding-top: 30px;
+}
+/* fin premiere partie accueil */
+
+/* deuxième partie accueil : Mes projets */
+
+.S2mesprojets_images { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items : space-evenly;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top : 3px;
+
+}
+
+.S2mesprojets_titre{ 
+    font-family: Manrope;
+    font-size : 30px;
+    text-align: center;
+    margin-bottom : 60px;
+}
+
+
+/* fin deuxième partie accueil */

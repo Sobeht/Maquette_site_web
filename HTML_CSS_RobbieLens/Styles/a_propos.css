@@ -1,0 +1,56 @@
+
+.section1_apropos, .section2_tarifs {
+    background-color: #1F2039;
+
+}
+
+ .S1_apropos{
+    margin : 0px 160px 0px 160px;
+    text-align: justify;
+ }
+
+ .S1apropos_titre , .S1apropos_texte , .S1apropos_liste {
+    margin-bottom : 30px;
+ }
+
+ .S1apropos_titre {
+    padding : 0px 0px 30px 50px;
+ }
+
+ .S1apropos_texte , .S1apropos_liste {
+    padding : 0px 150px 0px 150px;
+ }
+
+ .S1apropos_boutonportfolio {
+    margin-top : 100px;
+    text-align: center;
+ }
+
+.S1apropos_titreservices, .S2tarifs_titre{ 
+    color:#F9F8FF;
+    padding-bottom : 20px;
+
+}
+
+li { 
+    font-size: 1em;
+    font-family: Manrope;
+    color:#F9F8FF;
+
+}
+
+.section2_tarifs {
+    display:flex;
+    justify-content : center;
+    align-content : center;
+    color:#F9F8FF;
+}
+
+.section2_tarifs td, .section2_tarifs th {
+    border : 1px solid #696484;
+    padding : 100px;
+}
+
+.section2_tarifs table {
+    border-collapse: collapse;
+}

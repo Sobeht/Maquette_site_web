@@ -5,7 +5,8 @@
 
     <meta charset="utf-8">
     <title>Accueil - Robbie Lens Photographie</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="Styles/general.css" rel="stylesheet">
+    <link href="Styles/accueil.css" rel="stylesheet">
 
     <!-- MONTSERRAT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,31 +23,61 @@
 
 <body>
 
-<header>   
-    <nav class="entete">
-        <a href="index.html"><img src="IMAGES/logo.png" alt="Page d'accueil" class="taille_logo"> Page d'accueil</a>
-        <a href="a_propos.html">A propos</a>
-    </nav>
-</header>
+    <header>   
+        <nav>
+        <div class = "nav_entete">
+             <a href="index.html"><img src="IMAGES/logo.png" alt="Page d'accueil" class="taille_logo"></a>
+                
+             <div class="nav_boutons">
+                <a href="index.html">Page d'accueil</a>
+                <a href="a_propos.html">A propos</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </div>
+        </nav>
+           
+    </header>
 
-<section>
 <main>
-    <h1>Photographie</h1>
-   
+<section class="section1_accueil">
+<div class="S1_accueil">
+ <div class="S1accueil_gauche">
+    <div class="S1accueil_titre"><h1>Robbie Lens Photographie</h1></div>
+    <div class="S1accueil_texte">
     <p>
         Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis plus de 5
         ans maintenant, j’exerce mon métier avec la passion
         qui m’anime : capturer l’essence de chaque instant.
-    </p>
+    </p></div>
+    <div class="S1accueil_boutoncontact"><a class=lien_bouton href="portfolio.html">UN PROJET ? ÉCRIVEZ-MOI</a></div>
+  </div>
 
-    <img src="IMAGES/robbie-lens.png" alt="Logo" />
+  <div class="S1accueil_droit"><img src="IMAGES/robbie-lens.png" alt="Logo" /></div>
 
-    <div class="bouton">
-    <a class=lien_bouton href="">UN PROJET ? ÉCRIVEZ-MOI</a>
+</div>
+</section>
+
+<section class="section2_mesprojets">
+    <h2 class="S2mesprojets_titre">Mes projets</h2>
+    <div class="S2mesprojets_images">
+   
+        <div class="S2mesprojetsimages img1"><img src="IMAGES/Accueil/element1.png" alt="image1"></div>
+        <div class="S2mesprojetsimages img2"><img src="IMAGES/Accueil/element2.png" alt="image2"></div>
+        <div class="S2mesprojetsimages img3"><img src="IMAGES/Accueil/element3.png" alt="image3"></div>
+   
+        <div class="S2mesprojetsimages img4"><img src="IMAGES/Accueil/element4.png" alt="image4"></div>
+        <div class="S2mesprojetsimages img5"><img src="IMAGES/Accueil/element5.png" alt="image5"></div>
+        <div class="S2mesprojetsimages img6"><img src="IMAGES/Accueil/element6.png" alt="image6"></div>
+    
     </div>
+</section>
+
+
+
+
 
 </main>
-</section>
+
 
 <footer>
     <nav class="bas_de_page">
