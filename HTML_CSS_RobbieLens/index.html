@@ -39,6 +39,7 @@
     </header>
 
 <main>
+    
 <section class="section1_accueil">
 <div class="S1_accueil">
  <div class="S1accueil_gauche">
@@ -49,7 +50,7 @@
         ans maintenant, j’exerce mon métier avec la passion
         qui m’anime : capturer l’essence de chaque instant.
     </p></div>
-    <div class="S1accueil_boutoncontact"><a class=lien_bouton href="portfolio.html">UN PROJET ? ÉCRIVEZ-MOI</a></div>
+    <div class="S1accueil_boutoncontact"><a class=lien_bouton href="#formulaire">UN PROJET ? ÉCRIVEZ-MOI</a></div>
   </div>
 
   <div class="S1accueil_droit"><img src="IMAGES/robbie-lens.png" alt="Logo" /></div>
@@ -72,7 +73,38 @@
     </div>
 </section>
 
+<section id="formulaire" class="section3_formulaire">
+    <p class="S3formulaire_titre">Parlons de votre projet</p> 
+ 
+    <form method="get" action="">
+    <div class="S3formulaire_nom_email">
+        <div class="S3formulaire_nom">
+        <p>
+            <label for="nom">Nom</label><br><input type="text" name="nom" id="nom" size="60">
+        </p>
+        </div>
+        
+        <div class="S3formulaire_email">
+        <p>
+            <label for="email">Email</label><br><input type="email" name="email" id="email" size="60">
+        </p>
+        </div>
+    </div>
+    <div class="S3formulaire_message">
+        <p>
+            <label for="message">Message</label> <br>
+            <textarea name="message" id="message"></textarea>
+        </p>
+    </div>
+    <div class="S3formulaire_bouton">
+    <input type="submit" value="Envoyer">
+    </div>
 
+
+
+    </form>
+      
+</section>
 
 
 
